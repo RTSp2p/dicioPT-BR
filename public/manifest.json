@@ -1,22 +1,21 @@
 {
+  "author": "Rosinaldo",
+  "name": "dicioPT-BR",
+  "description": "Busca definições e sinônimos em português ao selecionar uma palavra.",
+  "repoUrl": "https://github.com/RTSp2p/dicioPT-BR",
+  "enableOnMobile": false,
+  "id": "dicioPT-BR0950",
   "manifestVersion": 1,
-  "id": "plugin_template",
-  "name": "Plugin Template",
-  "author": "remnote",
-  "repoUrl": "",
   "version": {
     "major": 0,
     "minor": 0,
     "patch": 1
   },
-  "theme": [],
-  "enableOnMobile": false,
-  "description": "",
-  "requestNative": false,
+  "requestNative": true,
   "requiredScopes": [
     {
       "type": "All",
-      "level": "Read"
+      "level": "ReadCreateModify"
     }
   ]
 }
